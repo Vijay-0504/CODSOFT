@@ -1,4 +1,11 @@
-.position1{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intern.css">
+    <style>
+        .position1{
     position:absolute;
     align-items: center;
     top: 25%;
@@ -178,3 +185,49 @@ background: linear-gradient(90deg, rgb(231, 188, 231) 8%, rgba(60,191,236,1) 42%
     top: 30px;
     margin-left: 500px;
 }
+
+    </style>
+</head>
+<body class="main">
+    <h1 class="heading" >OUR  PRICING DETAILS</h1>
+    <div class="position1">
+      <h1 class="plans">Basic</h1>
+      <ul>
+        <li class="word">Unlimited Suppport</li>
+        <li class="word">5 gb Cloud storage</li>
+        <li class="word">2 screens</li>
+        <li class="word">controlled Download</li>
+      </ul>
+      <button class="button-85">
+            @120/3 months
+      </button>
+    </div>
+    <div class="position2">
+        <h1 class="plans" style="color: blanchedalmond;">Elite</h1>
+        <ul>
+          <li class="word">Unlimited Suppport</li>
+          <li class="word">10gb Cloud storage</li>
+          <li class="word">3 screens</li>
+          <li class="word">limited Download</li>
+        </ul>
+        <button class="button-85">
+              @299/3 months
+        </button>
+      </div>
+      <div class="position3">
+        <h1 class="plans" style="color: gold;">Premium</h1>
+        <ul>
+          <li class="word">Unlimited Suppport</li>
+          <li class="word">20 gb Cloud storage</li>
+          <li class="word"> 6 screens</li>
+          <li class="word">Unlimited Download</li>
+        </ul>
+        <button class="button-85">
+              @399/3 months
+        </button>
+      </div>
+      
+    
+</body>
+</html>
+
